@@ -12,7 +12,7 @@ Exercises and projects from the **Python Essentials** courses by Cisco Networkin
 
 ---
 
-## 📚 Contents
+## Contents
 
 | Course | Project | Description |
 |---|---|---|
@@ -21,7 +21,7 @@ Exercises and projects from the **Python Essentials** courses by Cisco Networkin
 
 ---
 
-## 🎮 Python Essentials 1: Tic-Tac-Toe
+## Python Essentials 1: Tic-Tac-Toe
 
 A console game where you play `O` against the computer (`X`). The computer opens in the center and then picks random free squares.
 
@@ -52,7 +52,7 @@ There are two versions:
 
 ---
 
-## 🧪 Python Essentials 2
+## Python Essentials 2
 
 | File | What it does |
 |---|---|
@@ -60,7 +60,7 @@ There are two versions:
 
 ---
 
-## ▶️ How to run
+## How to run
 
 The only requirement is **Python 3**. No external libraries are needed.
 
@@ -76,11 +76,11 @@ python "Python Essentials 1/tictactoePro.py"
 python "Python Essentials 2/tester.py"
 ```
 
-> 💡 If the colors in `tictactoePro.py` show up as strange characters, your console doesn't support ANSI codes. Set `USE_COLORS = False` at the top of the file.
+> ⚠️If the colors in `tictactoePro.py` show up as strange characters, your console doesn't support ANSI codes. Set `USE_COLORS = False` at the top of the file.
 
 ---
 
-## 🗂️ Repository structure
+## Repository structure
 
 ```
 CISCO-Academy-Python/
@@ -93,19 +93,6 @@ CISCO-Academy-Python/
 └── README.md
 ```
 
----
-
-## 🌿 Workflow
-
-This repository follows **GitFlow**:
-
-- `main`: final versions only.
-- `develop`: integration branch.
-- `feature/*`: one branch per course or topic. Each one is merged into `develop` through a Pull Request.
-
-Commits follow [Conventional Commits](https://www.conventionalcommits.org/).
-
----
 
 <div align="center">
 
